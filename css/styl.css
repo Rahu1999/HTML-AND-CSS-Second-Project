@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#logo{
+    /* border: 2px solid red; */
+    /* border-radius: 101px; */
+    /* box-sizing: border-box; */
+    /* width: 6%; */
+    padding: 3px 18px;
+    margin: 0px 0px;
+}
+#logo img{
+    
+    height: 95px;
+    margin: 2px 2px;
+}
+/* Navigation Section*/
+#navbar{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+#navbar ul{
+    display: flex;
+    font-size: 1.3rem;
+    
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.4;  
+    
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.6rem;
+    /* font-weight: bold; */
+    /* font-family: 'Dela Gothic One', cursive; */
+    font-family: 'Baloo Bhai 2', cursive;
+   
+}
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+/* Home Section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    justify-content: center;
+    padding: 8px 206px
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('../bg1.png') no-repeat center center/cover;
+    width: 100%;
+    height: 631px;
+    
+   
+    z-index: -1;
+    opacity: 0.8;
+    
+}
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.h-prime{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+.h-secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+}
+.btn{
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 7px 34px;
+    margin: 13px;
+    border-radius: 27px;
+    font-size: 1.3rem;
+    font-family: 'Baloo Bhai 2', cursive;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    background-color: rgb(236, 78, 165);
+    
+}
+#services{
+    display: flex;
+    margin: 34px
+}
+#services .box{
+    padding: 42px;
+    margin: 13px 16px;
+    border-radius: 23px;
+    border: 2px solid red;
+    background-color: #f5f3f3;
+}
+#services .box img{
+    margin: auto;
+    display: block;
+    height: 100px;
+
+}
+
+.center{
+
+text-align: center;
+}
+.h-pime-center{
+    text-align: center;
+    color: black;
+    font-size: 2.8rem;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.service-contaner{
+    margin: 101px 3px;
+
+}
+ /*
+ client side
+ */
+ #clinet-section{
+     height: 344px;
+ }
+ #clinet-section h1{
+    font-size: 2.8rem;;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -100px;
+    font-family: 'Baloo Bhai 2', cursive;
+ }
+
+ #clinet-section::before{
+
+    content: "";
+    position: absolute;
+    background: url('../bg2.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.4;
+ }
+
+ #clinets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+ }
+ #clinets img{
+    height: 125px;
+
+ }
+ .client-item{
+     padding: 67px ;
+ }
+ /*
+ Dircet Contact US
+ */
+
+ section h1{
+    text-align: center;
+    color: black;
+    font-size: 2.8rem;
+    font-family: 'Baloo Bhai 2', cursive;
+ }
+ /* .contact-class{
+     display: flex;
+     color: white;
+     /* flex-direction: column; */
+     /* align-items: center;
+     justify-content: center; */
+     /* display: inline-block;
+     align-items: center;
+     width: 200px;
+     height: 100px;
+     position: relative;
+     left: 578px; */
+ /* }  */ 
+
+ .contact-class::before{
+    content: "";
+    position: absolute;
+    background: url('../bg_cont.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 34%;
+    z-index: -1;
+    opacity: 0.8;
+ }
+ .contact-class .lableclass{
+
+    margin: 7px;
+    padding: 2px;
+ }
+ #contact-box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 30px;
+ }
+ #contact-box input,
+ #contact-box textarea{
+     width: 100%;
+     padding: 0.5rem;
+ }
+
+
+footer{
+    background: black;
+    color: white;
+    margin-top: 10px;
+}
